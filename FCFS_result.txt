@@ -1,0 +1,38 @@
+0-> 
+1-> 	2: running	6: ready
+2-> 	0: ready	2: running	3: ready	6: ready	7: ready
+3-> 	0: ready	1: ready	2: running	3: ready	4: ready	5: ready	6: ready	7: ready
+4-> 	0: ready	1: ready	2: running	3: ready	4: ready	5: ready	6: ready	7: ready
+5-> 	0: ready	1: ready	2: running	3: ready	4: ready	5: ready	6: ready	7: ready
+6-> 	0: ready	1: ready	2: blocked	3: ready	4: ready	5: ready	6: running	7: ready
+7-> 	0: ready	1: ready	2: blocked	3: ready	4: ready	5: ready	6: running	7: ready
+8-> 	0: blocked	1: ready	2: blocked	3: blocked	4: ready	5: ready	6: blocked	7: running
+9-> 	0: blocked	1: ready	2: blocked	3: blocked	4: ready	5: ready	6: blocked	7: running
+10-> 	0: blocked	1: running	2: blocked	3: ready	4: ready	5: ready	6: blocked	7: blocked
+11-> 	0: blocked	1: running	2: ready	3: ready	4: ready	5: ready	6: ready	7: blocked
+12-> 	0: ready	1: blocked	2: ready	3: ready	4: blocked	5: running	6: ready	7: blocked
+13-> 	0: ready	1: blocked	2: ready	3: ready	4: blocked	5: running	6: ready	7: ready
+14-> 	0: ready	1: blocked	2: running	4: blocked	5: blocked	6: ready	7: ready
+15-> 	0: ready	1: blocked	2: running	4: blocked	5: blocked	6: ready	7: ready
+16-> 	0: ready	1: ready	2: running	4: ready	5: blocked	6: ready	7: ready
+17-> 	0: ready	1: ready	2: running	4: ready	5: blocked	6: ready	7: ready
+18-> 	0: ready	1: ready	2: running	4: ready	5: ready	6: ready	7: ready
+19-> 	0: ready	1: ready	4: ready	5: ready	6: running	7: ready
+20-> 	0: ready	1: ready	4: ready	5: ready	6: running	7: ready
+21-> 	1: ready	4: ready	5: ready	7: running
+22-> 	1: ready	4: ready	5: ready	7: running
+23-> 	1: running	4: ready	5: ready
+24-> 	1: running	4: ready	5: ready
+25-> 	5: running
+26-> 	5: running
+27-> 
+Finishing Time  : 26
+CPU Utilization : 0.963
+Turnaround time of Process 0: 19
+Turnaround time of Process 1: 22
+Turnaround time of Process 2: 18
+Turnaround time of Process 3: 12
+Turnaround time of Process 4: 22
+Turnaround time of Process 5: 24
+Turnaround time of Process 6: 20
+Turnaround time of Process 7: 21

@@ -1,0 +1,42 @@
+	q = 2
+0-> 
+1-> 	2: running	6: ready
+2-> 	0: ready	2: running	3: ready	6: ready	7: ready
+3-> 	0: ready	1: ready	2: ready	3: ready	4: ready	5: ready	6: running	7: ready
+4-> 	0: ready	1: ready	2: ready	3: ready	4: ready	5: ready	6: running	7: ready
+5-> 	0: blocked	1: ready	2: ready	3: blocked	4: ready	5: ready	6: blocked	7: running
+6-> 	0: blocked	1: ready	2: ready	3: blocked	4: ready	5: ready	6: blocked	7: running
+7-> 	0: blocked	1: running	2: ready	3: ready	4: ready	5: ready	6: blocked	7: blocked
+8-> 	0: blocked	1: running	2: ready	3: ready	4: ready	5: ready	6: ready	7: blocked
+9-> 	0: ready	1: blocked	2: ready	3: ready	4: blocked	5: running	6: ready	7: blocked
+10-> 	0: ready	1: blocked	2: ready	3: ready	4: blocked	5: running	6: ready	7: ready
+11-> 	0: ready	1: blocked	2: running	3: ready	4: blocked	5: blocked	6: ready	7: ready
+12-> 	0: ready	1: blocked	2: running	3: ready	4: blocked	5: blocked	6: ready	7: ready
+13-> 	0: ready	1: ready	2: ready	4: ready	5: blocked	6: running	7: ready
+14-> 	0: ready	1: ready	2: ready	4: ready	5: blocked	6: running	7: ready
+15-> 	1: ready	2: ready	4: ready	5: ready	7: running
+16-> 	1: ready	2: ready	4: ready	5: ready	7: running
+17-> 	1: running	2: ready	4: ready	5: ready
+18-> 	1: running	2: ready	4: ready	5: ready
+19-> 	2: running	5: ready
+20-> 	2: blocked	5: running
+21-> 	2: blocked	5: running
+22-> 	2: blocked
+23-> 	2: blocked
+24-> 	2: blocked
+25-> 	2: running
+26-> 	2: running
+27-> 	2: running
+28-> 	2: running
+29-> 	2: running
+30-> 
+Finishing Time  : 29
+CPU Utilization : 0.867
+Turnaround time of Process 0: 13
+Turnaround time of Process 1: 16
+Turnaround time of Process 2: 29
+Turnaround time of Process 3: 11
+Turnaround time of Process 4: 16
+Turnaround time of Process 5: 19
+Turnaround time of Process 6: 14
+Turnaround time of Process 7: 15

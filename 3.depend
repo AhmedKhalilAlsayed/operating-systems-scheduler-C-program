@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1653739898 source:/home/ubuntu/Desktop/3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"process_interface.h"
+	"array_interface.h"
+	"queue_interface.h"
+	"priority_queue_interface.h"
+
+1653426685 /home/ubuntu/Desktop/3/process_interface.h
+
+1653404755 /home/ubuntu/Desktop/3/array_interface.h
+
+1653404769 /home/ubuntu/Desktop/3/queue_interface.h
+
+1653404767 /home/ubuntu/Desktop/3/priority_queue_interface.h
+
+1653424801 source:/home/ubuntu/Desktop/3/array_program.c
+	<stdio.h>
+	"process_interface.h"
+	"array_interface.h"
+
+1653424808 source:/home/ubuntu/Desktop/3/priority_queue_program.c
+	<stdio.h>
+	<stdlib.h>
+	"process_interface.h"
+	"priority_queue_interface.h"
+
+1653424815 source:/home/ubuntu/Desktop/3/queue_program.c
+	<stdio.h>
+	"process_interface.h"
+	"queue_interface.h"
+
